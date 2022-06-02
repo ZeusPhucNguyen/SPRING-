@@ -15,11 +15,11 @@ public class studentController {
 
     public studentController(){
         list = new ArrayList<>();
-        list.add(Student.builder().rollNumber("A001").fullName("Duong").build());
+        list.add(Student.builder().rollNumber("A001").fullName("Phuc").build());
         list.add(Student.builder().rollNumber("A002").fullName("Thanh").build());
-        list.add(Student.builder().rollNumber("A003").fullName("Dat").build());
-        list.add(Student.builder().rollNumber("A004").fullName("Tien").build());
-        list.add(Student.builder().rollNumber("A005").fullName("Hoang").build());
+        list.add(Student.builder().rollNumber("A003").fullName("Linh").build());
+        list.add(Student.builder().rollNumber("A004").fullName("Nam").build());
+        list.add(Student.builder().rollNumber("A005").fullName("Hoa").build());
 
     }
 
